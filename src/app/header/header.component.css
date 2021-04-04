@@ -1,0 +1,47 @@
+header {
+  padding: 0px 10px;
+  background-color: #889bd3;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.logo__title {
+  font-family: "New Tegomin";
+  color: #2e213a;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.logo__subtitle {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  color: #a12424;
+}
+
+.nav__link {
+  padding: 25px 15px;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-weight: 400;
+  color: #434e74;
+  text-decoration: none;
+}
+
+nav a:last-child {
+  padding: 25px 0px 25px 15px;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}

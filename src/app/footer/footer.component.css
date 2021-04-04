@@ -1,0 +1,41 @@
+.footer__container {
+  background-color: #889bd3;
+  padding: 20px 10px 15px;
+}
+
+.social__container {
+  margin-left: 150px;
+  display: inline-block;
+}
+
+.footer__social__text {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.footer__social li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.app__container {
+  display: inline-block;
+  float: right;
+  margin-right: 150px;
+}
+
+.footer__app__text {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.footer__gp__img {
+  height: 50px;
+  width: auto;
+}
+
+.footer__text3 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}

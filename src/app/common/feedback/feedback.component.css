@@ -1,0 +1,132 @@
+.main__container {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.feedback__text1 {
+  text-align: justify;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+.feedback__text1:before {
+  content: "";
+  margin-left: 50px;
+}
+
+.form__container {
+  background-color: #eee;
+  border: 2px solid #505050;
+  border-radius: 10px;
+  width: 75%;
+  margin: auto;
+  padding: 15px 25px;
+}
+
+/*Имя*/
+
+.form__name__container {
+  display: inline-block;
+}
+
+.input__name {
+  border: 1px solid #000;
+  padding: 5px;
+  width: 300px;
+  height: 35px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.input__name:focus {
+  border: 1px solid #7fbed5;
+  box-shadow: 2px 2px 5px #7fbed5;
+}
+
+/*Почта*/
+
+.form__email__container {
+  display: inline-block;
+  float: right;
+}
+
+.input__email {
+  border: 1px solid #000;
+  padding: 5px;
+  width: 300px;
+  height: 35px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.input__email:focus {
+  border: 1px solid #7fbed5;
+  box-shadow: 2px 2px 5px #7fbed5;
+}
+
+/*Тема*/
+
+.input__theme {
+  border: 1px solid #000;
+  padding: 5px;
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.input__theme:focus {
+  border: 1px solid #7fbed5;
+  box-shadow: 2px 2px 5px #7fbed5;
+}
+
+/*Сообщение*/
+
+.textarea__message {
+  border: 1px solid #000;
+  padding: 5px;
+  width: 100%;
+  min-height: 50px;
+  height: 400px;
+  font-size: 14px;
+  resize: vertical;
+  margin: 10px 0;
+}
+
+.textarea__message:focus {
+  border: 1px solid #7fbed5;
+  box-shadow: 2px 2px 5px #7fbed5;
+}
+
+/*Файлы*/
+
+/*Кнопка*/
+
+.form__button__container {
+  padding: 50px 0;
+}
+
+.form__button {
+  float: right;
+  border: 1px solid #000;
+  width: 200px;
+  height: 45px;
+  color: #fff;
+  background: #889bd3;
+  border-radius: 5px;
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.form__button:hover {
+  background: #6f7eac;
+  box-shadow: 3px 3px 8px #818181;
+}
+
+.form__button:active {
+  position: relative;
+  top: 2px;
+  background: #ae8fb1;
+  box-shadow: 1px 1px 8px #818181;
+}

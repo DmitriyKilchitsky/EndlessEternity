@@ -1,0 +1,13 @@
+.mode__text {
+  text-align: justify;
+}
+
+.mode__list1 {
+  margin-top: 3px;
+  list-style: none;
+}
+
+.mode__list1 li:before {
+  content: "\2714";
+  margin: 0 10px 0 0;
+}

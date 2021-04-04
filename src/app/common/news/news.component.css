@@ -1,0 +1,40 @@
+.main__container{
+	font-size: 24px;
+	line-height: 24px;
+}
+
+
+/*Кнопка сортировки*/
+
+.news__button__container__text{
+	font-size: 20px;
+}
+
+.news__button__container button{
+	margin-left: 10px;
+	font-weight: 700;
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	background: #7fbed5;
+	text-transform: uppercase;
+	border-radius: 25px;
+	letter-spacing: 0.1em;
+}
+
+.news__button__container button:hover{
+	background: #434e74;
+}
+
+.news__button__container button:active{
+	border: 2px solid #505050;
+}
+
+
+/*Блок для новости*/
+
+.news__container__all{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
