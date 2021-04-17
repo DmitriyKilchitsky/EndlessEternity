@@ -8,6 +8,8 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import { ModeSectionComponent } from './home/mode-section/mode-section.component';
 import { NewsComponent } from './news/news.component';
 import { NewsItemComponent } from './news/news-item/news-item.component';
+import { AboutComponent } from './about/about.component';
+import { WikiComponent } from './wiki/wiki.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { NewsItemComponent } from './news/news-item/news-item.component';
     ModeSectionComponent,
     NewsComponent,
     NewsItemComponent,
+    AboutComponent,
+    WikiComponent,
   ],
   imports: [CommonModule, CommonRoutingModule],
 })
