@@ -1,0 +1,101 @@
+/*Main*/
+
+.main__container {
+  padding: 10px 30px;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 0 0 15px 0;
+}
+
+/*Окно разработчика*/
+
+.develloper__container {
+  margin: 0 auto;
+  width: 85%;
+  min-height: 266px;
+  padding: 20px;
+  border: 2px solid #505050;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dev__image__container {
+  width: 30%;
+  max-height: 226.5px;
+  border: 5px solid #505050;
+  border-radius: 50%;
+  background-color: #eee;
+  background-image: url("../../../assets/images/dev_01.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dev__text__container {
+  width: 65%;
+  text-align: justify;
+}
+
+.dev__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/*Кнопки для слайдера*/
+
+.dev__slider__container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.dev__slider li {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 10px;
+  background-color: #eee;
+  opacity: 0.4;
+  border: 1px solid #505050;
+  border-radius: 1px;
+  margin: 0 5px;
+}
+
+.dev__slider li:hover {
+  opacity: 1;
+  background: #fff;
+}
+
+.dev__slider li:active {
+  opacity: 1;
+  background: #889bd3;
+}
+
+.dev__slider a {
+  text-align: center;
+  display: block;
+  height: 100%;
+}
+
+/*Делаем footer прибитым к низу*/
+
+.body__container{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+main{
+	flex-grow: 1;
+}

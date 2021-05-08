@@ -1,0 +1,34 @@
+.news__image__container {
+  margin: 20px auto 10px;
+  width: 90%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.news__date {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #505050;
+  font-weight: 300;
+}
+
+h2.news__title {
+  font-family: Roboto;
+  font-weight: 600;
+  color: #505050;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2.news__title a:hover {
+  text-decoration: underline;
+}
+
+h2.news__title a:visited {
+  color: #505050;
+}
