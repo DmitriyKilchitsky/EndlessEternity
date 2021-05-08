@@ -1,40 +1,51 @@
-.main__container{
-	font-size: 24px;
-	line-height: 24px;
+.main__container {
+  font-size: 24px;
+  line-height: 24px;
 }
-
 
 /*Кнопка сортировки*/
 
-.news__button__container__text{
-	font-size: 20px;
+.news__button__container__text {
+  font-size: 20px;
 }
 
-.news__button__container button{
-	margin-left: 10px;
-	font-weight: 700;
-	width: 80px;
-	height: 30px;
-	color: #fff;
-	background: #7fbed5;
-	text-transform: uppercase;
-	border-radius: 25px;
-	letter-spacing: 0.1em;
+.news__button__container button {
+  margin-left: 10px;
+  font-weight: 700;
+  width: 80px;
+  height: 30px;
+  color: #fff;
+  background: #7fbed5;
+  text-transform: uppercase;
+  border-radius: 25px;
+  letter-spacing: 0.1em;
 }
 
-.news__button__container button:hover{
-	background: #434e74;
+.news__button__container button:hover {
+  background: #434e74;
 }
 
-.news__button__container button:active{
-	border: 2px solid #505050;
+.news__button__container button:active {
+  border: 2px solid #505050;
 }
-
 
 /*Блок для новости*/
 
-.news__container__all{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+.news__container__all {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.news__container {
+  margin: 0 10px;
+  width: 350px;
+  display: inline-block;
+  border: 3px solid #ae8fb1;
+  background-color: #eee;
+}
+
+.news__container:hover {
+  box-shadow: 7px 7px 10px #505050;
 }

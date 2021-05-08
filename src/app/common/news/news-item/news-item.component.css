@@ -1,20 +1,9 @@
-.news__container {
-  margin-top: 40px;
-  width: 45%;
-  border: 3px solid #ae8fb1;
-  background-color: #eee;
-}
-
-.news__container:hover {
-  box-shadow: 7px 7px 10px #505050;
-}
-
 .news__image__container {
   margin: 20px auto 10px;
   width: 90%;
 }
 
-.news__container img {
+img {
   height: 100%;
   width: 100%;
 }
