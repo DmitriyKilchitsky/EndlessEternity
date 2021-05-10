@@ -1,0 +1,46 @@
+.item__container {
+  margin: 10px 0;
+  padding: 0.5rem 1rem;
+  position: relative;
+  border: 3px solid #ae8fb1;
+  background-color: #eee;
+}
+
+.content__left {
+  width: 30%;
+  height: 226.5px;
+  border: 5px solid #505050;
+  border-radius: 50%;
+  background-color: #eee;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../../../assets/images/dev_01.png");
+  display: inline-block;
+}
+
+.content__right {
+  padding-left: 1rem;
+  width: 70%;
+  position: absolute;
+  top: 0.5rem;
+  display: inline-block;
+}
+
+.card-header {
+  position: relative;
+}
+
+.card-rank {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+}
+
+.card-content p:nth-child(1) {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  padding: 0.2rem 0;
+}

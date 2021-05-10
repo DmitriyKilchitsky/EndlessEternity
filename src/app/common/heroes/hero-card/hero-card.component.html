@@ -1,0 +1,21 @@
+<div class="hero__container">
+  <div class="content__left"></div>
+  
+  <div class="content__right">
+    <div class="card-header">
+      <h2>{{ hero.name }}</h2>
+      <ng-container *ngIf="hero.position">
+        <small>Должность: {{ hero.position }}</small>
+      </ng-container>
+      <span class="card-rank">{{ hero.rank }}🛡️</span>
+    </div>
+    <div class="card-content">
+      <p>Описание: {{ hero.description }}</p>
+      <p>Мощь: {{ hero.power }}💪</p>
+      <p>Здоровье: {{ hero.hp }}❤️</p>
+      <p>Урон: {{ hero.damage }}⚔️</p>
+      <p>Вероятность: {{ hero.chance }}🎲</p>
+      <p>Цена: {{ hero.price }}💰</p>
+    </div>
+  </div>
+</div>

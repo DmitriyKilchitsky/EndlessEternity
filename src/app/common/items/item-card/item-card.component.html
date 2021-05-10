@@ -1,0 +1,27 @@
+<div class="item__container">
+  <div class="content__left"></div>
+  <div class="content__right">
+    <div class="card-header">
+      <h2>{{ item.name }}</h2>
+      <span class="card-rank">{{ item.rank }}🛡️</span>
+    </div>
+    <div class="card-content">
+      <p>Описание: {{ item.description }}</p>
+      <p>Заряд: {{ item.percentage }}&#x25;</p>
+      <p>
+        Мана: {{ item.mana }}
+        <span>🔮</span>
+      </p>
+      <p>
+        Поинты: {{ item.points }}
+
+        <ng-container *ngIf="item.points === -100; else default">
+          <span>🔥</span>
+        </ng-container>
+        <ng-template #default>
+          <span>🏆</span>
+        </ng-template>
+      </p>
+    </div>
+  </div>
+</div>

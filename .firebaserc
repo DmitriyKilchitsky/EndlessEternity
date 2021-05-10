@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "endlesseternity-ed961": {
+      "hosting": {
+        "endless-eternity": [
+          "endlesseternity-ed961"
+        ]
+      }
+    }
+  }
+}
