@@ -4,74 +4,73 @@
     Если у вас возникли какие-либо вопросы, вы можете связаться с
     разработчиками, заполнив специальную форму.
   </p>
-  <div class="form__container">
-    <form
-      class="feedback"
-      action="#"
-      method="post"
-      enctype="multipart/form-data"
-    >
-      <div class="form__name__container">
-        <label for="user-name"> Ваше имя: </label>
-        <div class="form__name">
-          <input
-            class="input__name"
-            type="text"
-            name="user-name"
-            id="user-name"
-            value=""
-            required
-          />
-        </div>
+  <div class="form__container" [formGroup]="form">
+
+    <div class="form__name__container">
+      <label for="user-name"> Ваше имя: </label>
+      <div class="form__name">
+        <input
+          class="input__name"
+          type="text"
+          name="user-name"
+          id="user-name"
+          value=""
+          required
+          formControlName="user_name"
+        />
       </div>
-      <div class="form__email__container">
-        <label for="user-email"> Ваш e-mail: </label>
-        <div class="form__email">
-          <input
-            class="input__email"
-            type="email"
-            name="user-email"
-            id="user-email"
-            value=""
-            required
-            placeholder="example@gmail.com"
-          />
-        </div>
+    </div>
+    <div class="form__email__container">
+      <label for="user-email"> Ваш e-mail: </label>
+      <div class="form__email">
+        <input
+          class="input__email"
+          type="email"
+          name="user-email"
+          id="user-email"
+          value=""
+          required
+          placeholder="example@gmail.com"
+          formControlName="user_email"
+        />
       </div>
-      <div class="form__theme__container">
-        <label for="user-theme"> Тема: </label>
-        <div class="form__theme">
-          <input
-            class="input__theme"
-            type="text"
-            name="user-theme"
-            id="user-theme"
-            value=""
-            required
-            maxlength="100"
-          />
-        </div>
+    </div>
+    <div class="form__theme__container">
+      <label for="user-theme"> Тема: </label>
+      <div class="form__theme">
+        <input
+          class="input__theme"
+          type="text"
+          name="user-theme"
+          id="user-theme"
+          value=""
+          required
+          maxlength="100"
+          formControlName="user_subject"
+        />
       </div>
-      <div class="form__message__container">
-        <label for="user-message"> Сообщение: </label>
-        <div class="form__message">
-          <textarea
-            class="textarea__message"
-            name="user-message"
-            id="user-message"
-            required
-            maxlength="1000"
-          ></textarea>
-        </div>
+    </div>
+    <div class="form__message__container">
+      <label for="user-message"> Сообщение: </label>
+      <div class="form__message">
+        <textarea
+          class="textarea__message"
+          name="user-message"
+          id="user-message"
+          required
+          maxlength="1000"
+          formControlName="user_message"
+        ></textarea>
       </div>
-      <div class="form__file__container">
-        <div class="form__file">
-          <input class="input__file" type="file" name="user-file" multiple />
-        </div>
+    </div>
+    <div class="form__file__container">
+      <div class="form__file">
+        <input class="input__file" type="file" name="user-file" multiple />
       </div>
-      <div class="form__button__container">
-        <button class="form__button" type="submit">Отправить</button>
-      </div>
-    </form>
+    </div>
+    <div class="form__button__container">
+      <button class="form__button" (click)="sendEmail()" [disabled]="isLoading | async">Отправить</button>
+    </div>
+
   </div>
 </div>

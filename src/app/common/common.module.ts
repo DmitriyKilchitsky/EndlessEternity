@@ -16,6 +16,7 @@ import { HeroCardComponent } from './heroes/hero-card/hero-card.component';
 import { ItemsComponent } from './items/items.component';
 import { ItemsListComponent } from './items/items-list/items-list.component';
 import { ItemCardComponent } from './items/item-card/item-card.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -35,6 +36,6 @@ import { ItemCardComponent } from './items/item-card/item-card.component';
     ItemsListComponent,
     ItemCardComponent,
   ],
-  imports: [CommonModule, CommonRoutingModule],
+    imports: [CommonModule, CommonRoutingModule, ReactiveFormsModule],
 })
 export class AppCommonModule {}
