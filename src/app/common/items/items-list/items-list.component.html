@@ -1,0 +1,8 @@
+<div class="items-list">
+  <h1>{{ title }}</h1>
+  <div class="items">
+    <ng-container *ngFor="let item of items">
+      <app-item-card [item]="item"></app-item-card>
+    </ng-container>
+  </div>
+</div>
